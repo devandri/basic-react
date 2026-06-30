@@ -9,7 +9,12 @@ function Header() {
 }
 
 function App() {
-  return <Heading />
+  return (
+    <div className='App'>
+      <Heading name='Andri'/>
+      <Heading name='Wibowo'/>
+    </div>
+  )
 }
 
 export default App;

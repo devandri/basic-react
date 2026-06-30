@@ -1,6 +1,6 @@
-function Heading() {
+function Heading(props) {
     return (
-        <h1>This is an h1 heading</h1>
+        <h1>This is an h1 heading, my name {props.name}</h1>
     )
 }
 
