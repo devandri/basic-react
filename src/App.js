@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Heading from './Heading';
 
 function Header() {
   return (<h1>
@@ -8,7 +9,7 @@ function Header() {
 }
 
 function App() {
-  return <Header/>
+  return <Heading />
 }
 
 export default App;
