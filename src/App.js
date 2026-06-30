@@ -5,6 +5,7 @@ import Bag from './components/Bag';
 import Apples from './components/Apples';
 import Pears from './components/Pears';
 import Trunk from './components/Trunk';
+import Promo from './components/Promo';
 
 function Header() {
   return (<h1>
@@ -28,6 +29,7 @@ function App() {
           <Pears friend="John Doe" />
         </Bag>
       </Trunk>
+      <Promo heading="Don't miss this deal!" promoSubHeading="Subscribe to my newsletter and get all the shop items at 50% off!" />
     </div>
   )
 }
