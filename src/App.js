@@ -7,9 +7,11 @@ import Pears from './components/Pears';
 import Trunk from './components/Trunk';
 import Promo from './components/Promo';
 import Nav from './components/Nav';
+import Card from './components/Card';
 
 const bool = true
 const str1 = "Just"
+const randNum = () => Math.floor(Math.random() * 100) + 1;
 
 function Example(props) {
   return (
@@ -58,10 +60,22 @@ function PracticeComponentProperties() {
   )
 }
 
+function MultipleComponent() {
+  return (
+    <div>
+      <h1>Task: Add three Card elements</h1>
+      <Card num={randNum()} />
+      <Card num={randNum()} />
+      <Card num={randNum()} />
+    </div>
+  )
+}
+
 function App() {
   return (
     <div className='App'>
-      <PracticeComponentProperties />
+      {/* <PracticeComponentProperties /> */}
+      <MultipleComponent />
     </div>
   )
 }
