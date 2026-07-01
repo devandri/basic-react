@@ -6,6 +6,7 @@ import Apples from './components/Apples';
 import Pears from './components/Pears';
 import Trunk from './components/Trunk';
 import Promo from './components/Promo';
+import Nav from './components/Nav';
 
 function Header() {
   return (<h1>
@@ -18,6 +19,10 @@ function App() {
     <div className='App'>
       <Heading name='Andri'/>
       <Heading name='Wibowo'/>
+      <Nav first="Home" />
+      <Nav second="Contact" />
+      <Nav third="Portofolio" />
+      <Nav fourth="About" />
       <Bag>
         <Apples color="yellow" number="5" />
       </Bag>
