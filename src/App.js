@@ -8,17 +8,36 @@ import Trunk from './components/Trunk';
 import Promo from './components/Promo';
 import Nav from './components/Nav';
 
+const bool = true
+const str1 = "Just"
+
+function Example(props) {
+  return (
+    <div>
+      <h2>The value of the toggleBoolean prop is: {props.toggleBoolean.toString()}</h2>
+      <p>The value of the math prop is: <em>{props.math}</em></p>
+      <p>The vaue of the str prop is: <em>{props.str}</em></p>
+    </div>
+    
+  )
+}
+
 function Header() {
   return (<h1>
     Hello world!
   </h1>)
 }
 
-function App() {
+function PracticeComponentProperties() {
   return (
-    <div className='App'>
+    <div>
       <Heading name='Andri'/>
       <Heading name='Wibowo'/>
+      <Example 
+        toggleBoolean={!bool} 
+        math={(10+20)/3}
+        str={str1 + ' another ' + 'string'}
+      />
       <Nav first="Home" />
       <Nav second="Contact" />
       <Nav third="Portofolio" />
@@ -35,6 +54,14 @@ function App() {
         </Bag>
       </Trunk>
       <Promo heading="Don't miss this deal!" promoSubHeading="Subscribe to my newsletter and get all the shop items at 50% off!" />
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <div className='App'>
+      <PracticeComponentProperties />
     </div>
   )
 }
