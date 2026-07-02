@@ -9,6 +9,7 @@ import Promo from './components/Promo';
 import Nav from './components/Nav';
 import Card from './components/Card';
 import ClickExample from './components/ClickExample';
+import ModeToggler from './components/ModeToggler';
 
 const bool = true
 const str1 = "Just"
@@ -77,7 +78,8 @@ function App() {
     <div className='App'>
       {/* <PracticeComponentProperties /> */}
       {/* <MultipleComponent /> */}
-      <ClickExample />
+      {/* <ClickExample /> */}
+      <ModeToggler />
     </div>
   )
 }
