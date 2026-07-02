@@ -10,6 +10,7 @@ import Nav from './components/Nav';
 import Card from './components/Card';
 import ClickExample from './components/ClickExample';
 import ModeToggler from './components/ModeToggler';
+import DynamicEvent from './components/DynamicEvent';
 
 const bool = true
 const str1 = "Just"
@@ -79,7 +80,8 @@ function App() {
       {/* <PracticeComponentProperties /> */}
       {/* <MultipleComponent /> */}
       {/* <ClickExample /> */}
-      <ModeToggler />
+      {/* <ModeToggler /> */}
+      <DynamicEvent />
     </div>
   )
 }
