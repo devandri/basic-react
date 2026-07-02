@@ -12,6 +12,7 @@ import ClickExample from './components/ClickExample';
 import ModeToggler from './components/ModeToggler';
 import DynamicEvent from './components/DynamicEvent';
 import Promo2 from './components/Promo2';
+import Dog from './components/ParentChild';
 
 const bool = true
 const str1 = "Just"
@@ -83,7 +84,8 @@ function App() {
       {/* <ClickExample /> */}
       {/* <ModeToggler /> */}
       {/* <DynamicEvent /> */}
-      <Promo2 />
+      {/* <Promo2 /> */}
+      <Dog />
     </div>
   )
 }
