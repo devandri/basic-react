@@ -11,6 +11,7 @@ import Card from './components/Card';
 import ClickExample from './components/ClickExample';
 import ModeToggler from './components/ModeToggler';
 import DynamicEvent from './components/DynamicEvent';
+import Promo2 from './components/Promo2';
 
 const bool = true
 const str1 = "Just"
@@ -81,7 +82,8 @@ function App() {
       {/* <MultipleComponent /> */}
       {/* <ClickExample /> */}
       {/* <ModeToggler /> */}
-      <DynamicEvent />
+      {/* <DynamicEvent /> */}
+      <Promo2 />
     </div>
   )
 }
