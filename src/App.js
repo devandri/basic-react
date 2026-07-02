@@ -8,6 +8,7 @@ import Trunk from './components/Trunk';
 import Promo from './components/Promo';
 import Nav from './components/Nav';
 import Card from './components/Card';
+import ClickExample from './components/ClickExample';
 
 const bool = true
 const str1 = "Just"
@@ -75,7 +76,8 @@ function App() {
   return (
     <div className='App'>
       {/* <PracticeComponentProperties /> */}
-      <MultipleComponent />
+      {/* <MultipleComponent /> */}
+      <ClickExample />
     </div>
   )
 }
