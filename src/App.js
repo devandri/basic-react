@@ -82,10 +82,10 @@ function App() {
       {/* <PracticeComponentProperties /> */}
       {/* <MultipleComponent /> */}
       {/* <ClickExample /> */}
-      {/* <ModeToggler /> */}
+      <ModeToggler />
       {/* <DynamicEvent /> */}
       {/* <Promo2 /> */}
-      <Dog />
+      {/* <Dog /> */}
     </div>
   )
 }
